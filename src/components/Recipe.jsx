@@ -12,7 +12,7 @@ const CustomBox = styled(Box)({
   cursor: 'pointer',
 });
 
-const Recipe = ({ title, description, details }) => {
+const Recipe = ({ title, description, details, videoUrl }) => { // Agrega videoUrl a las props
   const [open, setOpen] = useState(false);
 
   const handleToggle = () => {
@@ -32,6 +32,19 @@ const Recipe = ({ title, description, details }) => {
         <Typography variant="body2" component="p">
           {details}
         </Typography>
+        {videoUrl && ( // Renderiza el iframe solo si hay una URL de video
+          <div style={{ marginTop: '16px' }}>
+            <iframe
+              width="100%"
+              height="315"
+              src={videoUrl}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        )}
       </Collapse>
     </CustomBox>
   );

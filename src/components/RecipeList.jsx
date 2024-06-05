@@ -12,6 +12,7 @@ const RecipeList = ({ recipes }) => {
             title={recipe.title}
             description={recipe.description}
             details={recipe.details}
+            videoUrl={recipe.videoUrl} // Agrega la URL del video como propiedad
           />
         </ListItem>
       ))}
