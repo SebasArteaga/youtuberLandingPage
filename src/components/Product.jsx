@@ -10,9 +10,9 @@ const CustomBox = styled(Box)({
   border: '1px solid #ccc',
   padding: '16px',
   margin: '16px',
-  width: '200px',
+  width: '100%',
   textAlign: 'center',
-}); */
+});
 
 const CustomTypography = styled(Typography)({
   fontSize: '1.1rem',
@@ -24,13 +24,16 @@ const CustomTypography = styled(Typography)({
 
 const Product = ({ image, name, description, link }) => {
   return (
-    <CustomBox component='article'>
-      <img src={image} alt={name} style={{ width: '100%', height: 'auto' }} />
+    <CustomBox component='article' > 
+    <div className='my-2 mx-5'>
+    <img src={image} alt={name} style={{ width: '100%', height: 'auto' }} />
       <Typography variant="h6">{name}</Typography>
       <CustomTypography>{description}</CustomTypography>
       <Button variant="contained" color="primary" href={link} target="_blank" rel="noopener noreferrer">
         Comprar
       </Button>
+    </div>
+      
     </CustomBox>
   );
 };
