@@ -12,11 +12,11 @@ import {
 } from '@mui/material';
 // menu
 import DrawerItem from './DrawerItem';
-// rotas
+// rutas
 import { Link } from 'react-router-dom';
 
 
-// personalizacao
+// personalizacion
 const StyledToolbar = styled(Toolbar) ({
     display: 'flex',
     justifyContent: 'space-between',
@@ -29,11 +29,19 @@ const ListMenu = styled(List)(({ theme }) => ({
     },
 }));
 
-//rotas
+//rutas
 const itemList = [
     {
       text: "Inicio",
       to: "/" 
+    },
+    {
+        text:"Recetas",
+        to:"/recipes"
+    },
+    {
+        text:'Utensilios',
+        to:'/products'
     },
     {
       text: "Acerca de mí",
