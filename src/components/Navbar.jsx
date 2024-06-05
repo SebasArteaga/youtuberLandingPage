@@ -37,7 +37,7 @@ const itemList = [
     },
     {
         text:"Recetas",
-        to:"/recipes"
+        to:"/recipe"
     },
     {
         text:'Utensilios',

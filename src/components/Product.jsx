@@ -26,7 +26,7 @@ const Product = ({ image, name, description, link }) => {
   return (
     <CustomBox component='article' > 
     <div className='my-2 mx-5'>
-    <img src={image} alt={name} style={{ width: '100%', height: 'auto' }} />
+    <img src={image} alt={name} style={{ width: '200px', height: 'auto' }} />
       <Typography variant="h6">{name}</Typography>
       <CustomTypography>{description}</CustomTypography>
       <Button variant="contained" color="primary" href={link} target="_blank" rel="noopener noreferrer">

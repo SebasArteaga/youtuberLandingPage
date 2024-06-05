@@ -6,37 +6,37 @@ import Product from '../components/Product';
 const products = [
     {
         image: 'https://http2.mlstatic.com/D_NQ_NP_821730-MLU72601168563_102023-O.webp',
-        name: 'Batidora De Pedestal Profesional Cocina Potent',
-        description: 'La Batidora de Pedestal Nevashel AD-02 es un electrodoméstico versátil que te ayudará a preparar deliciosos postres y recetas.',
+        name: 'Nombre producto',
+        description: 'Descripción de producto',
         link: 'https://www.mercadolibre.com.mx/batidora-de-pedestal-profesional-cocina-potent-260w-nevashel-color-negro-frecuencia-60hz/p/MLM27954777?pdp_filters=category:MLM10085#searchVariation=MLM27954777&position=6&search_layout=stack&type=product&tracking_id=1701f6d9-9bc4-4740-9097-d9e0487e3567'
       },
       {
         image: 'https://http2.mlstatic.com/D_NQ_NP_949811-MLU72631459445_112023-O.webp',
-        name: 'Licuadora Ninja 3 vasos',
-        description: 'Descripción del producto 2',
+        name: 'Nombre producto',
+        description: 'Descripción de producto',
         link: 'https://www.example.com/producto2'
       },
       {
         image: 'https://http2.mlstatic.com/D_NQ_NP_821730-MLU72601168563_102023-O.webp',
-        name: 'Batidora De Pedestal Profesional Cocina Potent',
-        description: 'La Batidora de Pedestal Nevashel AD-02 es un electrodoméstico versátil que te ayudará a preparar deliciosos postres y recetas.',
+        name: 'Nombre producto',
+        description: 'Descripción de producto',
         link: 'https://www.mercadolibre.com.mx/batidora-de-pedestal-profesional-cocina-potent-260w-nevashel-color-negro-frecuencia-60hz/p/MLM27954777?pdp_filters=category:MLM10085#searchVariation=MLM27954777&position=6&search_layout=stack&type=product&tracking_id=1701f6d9-9bc4-4740-9097-d9e0487e3567'
       },
       {
         image: 'https://http2.mlstatic.com/D_NQ_NP_949811-MLU72631459445_112023-O.webp',
-        name: 'Licuadora Ninja 3 vasos',
-        description: 'Descripción del producto 2',
+        name: 'Nombre producto',
+        description: 'Descripción de producto',
         link: 'https://www.example.com/producto2'
       },
       {
         image: 'https://http2.mlstatic.com/D_NQ_NP_821730-MLU72601168563_102023-O.webp',
-        name: 'Batidora De Pedestal Profesional Cocina Potent',
-        description: 'La Batidora de Pedestal Nevashel AD-02 es un electrodoméstico versátil que te ayudará a preparar deliciosos postres y recetas.',
+        name: 'Nombre producto',
+        description: 'Descripción de producto',
         link: 'https://www.mercadolibre.com.mx/batidora-de-pedestal-profesional-cocina-potent-260w-nevashel-color-negro-frecuencia-60hz/p/MLM27954777?pdp_filters=category:MLM10085#searchVariation=MLM27954777&position=6&search_layout=stack&type=product&tracking_id=1701f6d9-9bc4-4740-9097-d9e0487e3567'
       },
       {
         image: 'https://http2.mlstatic.com/D_NQ_NP_949811-MLU72631459445_112023-O.webp',
-        name: 'Licuadora Ninja 3 vasos',
+        name: 'Nombre producto',
         description: 'Descripción del producto 2',
         link: 'https://www.example.com/producto2'
       },
